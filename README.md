@@ -44,7 +44,7 @@ The figure below shows Segment-STN output (in an axial slice) for a T2-weighted 
   <img src="https://raw.githubusercontent.com/tdebuck/segment_STN/main/Segment-STNexample.png" width="80%">
 </p>
 <p align="center">
-  <em>STN segmentation on 3T and 7T T2-weighted MRI data.</em>
+  <em>Probabilistic STN segmentation on 3T and 7T T2-weighted MRI data.</em>
 </p>
 
 **What does Segment-STN do?**  
