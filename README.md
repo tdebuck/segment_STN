@@ -37,8 +37,7 @@ It is designed to be:
 - Scalable (HPC / SLURM compatible)
 - Clinically interpretable (left/right outputs)
 
-**Example**
-
+**Example**  
 The figure below shows Segment-STN output (in an axial slice) for a T2-weighted scan acquired at 3T and at 7T in the same subject. Example data were taken from the UNC Paired 3T and 7T dataset (https://doi.org/10.6084/m9.figshare.c.6485272), so totally independent from the training data.
 
 <p align="center">
@@ -48,8 +47,7 @@ The figure below shows Segment-STN output (in an axial slice) for a T2-weighted 
   <em>STN segmentation on 3T and 7T T2-weighted MRI data.</em>
 </p>
 
-**What does Segment-STN do?**
-
+**What does Segment-STN do?**  
 Segment-STN:
 - Detects the **subthalamic nucleus (STN)** automatically
 - Produces separate **left and right STN segmentations**
@@ -59,30 +57,21 @@ Segment-STN:
 
 ## Training & Generalization
 
-Segment-STN ...
-
-... was trained on **400 manually annotated STN masks** on **7 Tesla (7T) high-resolution MRI data**
-
-... was found to generalize to:
-  - Other field strengths (including 3T MRI)
-  - Different vendors (Siemens, Philips, GE)
-
-... works best when:
-  - Image quality is high in the deep nuclei
-  - Input data is *not* brain-extracted (de-faced is fine)
+Segment-STN ...  
+... was trained on **400 manually annotated STN masks** on **7 Tesla (7T) high-resolution MRI data**  
+... was found to generalize to other field strengths (including 3T MRI) and different vendors (Siemens, Philips, GE)  
+... works best when image quality is high in the deep nuclei and input data is *not* brain-extracted (de-faced is fine)
 
 ---
 
 ## Input & Output
 
-**Input**
-  
+**Input**  
 - **Modality:** T2-weighted MRI (T2w)
 - **Format:** `.nii` or `.nii.gz`
 - Place all scans in a single folder
 
-**Output**
-  
+**Output**  
 For each scan (i.e., each nifti file):
 - `<basename>_STN.nii.gz` → Full segmentation  
 - `<basename>_LSTN.nii.gz` → Left STN  
@@ -167,12 +156,9 @@ For simplicity, the dockerized version of Segment-STN only takes one single inpu
 
 ## Contact
 
-Thijs de Buck  
-
-Amsterdam UMC & Spinoza Centre for Neuroimaging
-
+Thijs de Buck   
+Amsterdam UMC & Spinoza Centre for Neuroimaging  
 m.h.s.debuck@amsterdamumc.nl & t.de.buck@spinozacentre.nl
-
 
 This tool is intended for **research purposes only**.  
 Not approved for clinical use.
