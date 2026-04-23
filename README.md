@@ -158,7 +158,9 @@ For simplicity, the dockerized version of Segment-STN only takes one single inpu
 
 Thijs de Buck   
 Amsterdam UMC & Spinoza Centre for Neuroimaging  
-m.h.s.debuck@amsterdamumc.nl & t.de.buck@spinozacentre.nl
+m.h.s.debuck@amsterdamumc.nl & t.de.buck@spinozacentre.nl  
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2t2zGWE90lTRjLz6FX-dd5aBEuJn07ys5A&s" width="400"/>
 
 This tool is intended for **research purposes only**.  
 Not approved for clinical use.
