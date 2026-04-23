@@ -27,13 +27,16 @@ It is designed to be:
 
 ---
 
-## Example Output (MNI space)
+## Example Output
 
-> 📌 *TBD: Insert example figure here (e.g., STN segmentation overlaid on MNI T2 template)*
+The figure below shows Segment-STN output (in an axial slice) for a T2-weighted scan acquired at 3T and at 7T in the same subject. Example data were taken from the UNC Paired 3T and 7T dataset (https://doi.org/10.6084/m9.figshare.c.6485272), so totally independent from the training data.
 
-```
-[ Placeholder for figure: STN segmentation on MNI template ]
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tdebuck/segment_STN/main/Segment-STNexample.png" width="50%">
+</p>
+<p align="center">
+  <em>STN segmentation on 3T and 7T T2-weighted MRI data.</em>
+</p>
 
 ---
 
