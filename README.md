@@ -35,10 +35,10 @@
 It is designed to be:
 - Easy to use (Docker / Singularity)
 - Scalable (HPC / SLURM compatible)
-- Clinically interpretable (left/right outputs)
+- Clinically interpretable (left/right outputs and voxel-wise probabilities)
 
 **Example**  
-The figure below shows Segment-STN output (in an axial slice) for a T2-weighted scan acquired at 3T and at 7T in the same subject. Example data were taken from the UNC Paired 3T and 7T dataset (https://doi.org/10.6084/m9.figshare.c.6485272), so totally independent from the training data.
+The figure below shows Segment-STN output for T2-weighted scans acquired at 3T and at 7T in the same subject. Example data were taken from the _UNC Paired 3T and 7T dataset_ (https://doi.org/10.6084/m9.figshare.c.6485272), so independent from the training data.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tdebuck/segment_STN/main/Segment-STNexample.png" width="80%">
@@ -46,12 +46,6 @@ The figure below shows Segment-STN output (in an axial slice) for a T2-weighted 
 <p align="center">
   <em>Probabilistic STN segmentation on 3T and 7T T2-weighted MRI data.</em>
 </p>
-
-**What does Segment-STN do?**  
-Segment-STN:
-- Detects the **subthalamic nucleus (STN)** automatically
-- Produces separate **left and right STN segmentations**
-- Optionally outputs a voxel-wise **probability map (model confidence)**
 
 ---
 
@@ -132,7 +126,7 @@ singularity run --nv \
 ---
 
 ### Directly loading nnUNet-v2 weights
-Feel free to reach out for the shared model weights (1.14GB). These are to large to include on GitHub, but can be shared directly. In that case, I can also share the model trained on 1.5 mm data (instead of 1.5 mm). Inference is quicker using this model, but it is less robust to differnces in contrast/resolution - so it's not included in this "main" release of Segment-STN.
+Feel free to reach out to receive the raw model weights (1.14GB). These are too large to include on GitHub, but can be shared directly. In that case, I can also share the model trained on 1.5 mm data (instead of 1.5 mm). Inference is quicker using this model, but it is less robust to differences in contrast/resolution - so it's not included in this "main" release of Segment-STN.
 
 ---
 
