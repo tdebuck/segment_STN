@@ -95,6 +95,7 @@ docker run --rm -v /path/to/data:/data thijsdebuck/segment-stn:1.105
 
 ### Option 2: Singularity (HPC / clusters)
 *Run the same container without Docker (common on HPC systems).*
+(Apptainer should work the same way)
 
 ```bash
 singularity run --nv \
