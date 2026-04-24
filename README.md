@@ -60,9 +60,8 @@ Segment-STN ...
 ## Input & Output
 
 **Input**  
-- **Modality:** T2-weighted MRI (T2w)
-- **Format:** `.nii` or `.nii.gz`
-- Place all scans in a single folder
+- **Modality:** T2-weighted MRI (T2w); format: `.nii` or `.nii.gz`
+- If you want to process multiple T2w scans, simply place all scans in a single folder
 
 **Output**  
 For each scan (i.e., each nifti file):
