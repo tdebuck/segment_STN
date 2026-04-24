@@ -153,9 +153,9 @@ For simplicity, the dockerized version of Segment-STN only takes one single inpu
 
 ## Contact
 
-Thijs de Buck & Maarten Bot
-Amsterdam UMC
-m.bot@amsterdamumc.nl & m.h.s.debuck@amsterdamumc.nl
+Thijs de Buck & Maarten Bot  
+Amsterdam UMC  
+m.bot@amsterdamumc.nl & m.h.s.debuck@amsterdamumc.nl  
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo2t2zGWE90lTRjLz6FX-dd5aBEuJn07ys5A&s" width="400"/>
 
