@@ -34,12 +34,8 @@ This tool is intended for **research purposes only**, not approved for clinical 
 
 ## Overview
 
-**Segment-STN** is a research tool for **fully automated segmentation of the subthalamic nucleus (STN)** from **T2-weighted (T2w) MRI scans**.
-
-It is designed to be:
-- Easy to use (Docker / Singularity)
-- Scalable (HPC / SLURM compatible)
-- Clinically interpretable (left/right outputs and voxel-wise probabilities)
+**Segment-STN** is a research tool for **fully automated segmentation of the subthalamic nucleus (STN)** from **T2-weighted (T2w) MRI scans**.  
+It is designed to be easy to use (Docker / Singularity) and scalable (HPC / SLURM compatible)
 
 **Example**  
 The figure below shows Segment-STN output for T2-weighted scans acquired at 3T and at 7T in the same subject. Example data were taken from the _UNC Paired 3T and 7T dataset_ (https://doi.org/10.6084/m9.figshare.c.6485272), so independent from the training data.
