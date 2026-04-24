@@ -89,6 +89,8 @@ Outputs are saved in:
 
 ## How to Use
 
+For the most recent Docker tags for Segment-STN, see https://hub.docker.com/repository/docker/thijsdebuck/segment-stn/tags
+
 ### Docker (local machine)
 *Run the tool locally using a containerized environment.*
 
