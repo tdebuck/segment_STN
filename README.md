@@ -19,10 +19,10 @@
 - [Training & Generalization](#training--generalization)
 - [Input & Output](#input--output)
 - [How to Use](#how-to-use)
-  - [Docker (local machine)](#docker-local-machine)
-  - [Singularity (HPC / clusters)](#singularity-hpc--clusters)
-  - [SLURM (scheduled jobs)](#slurm-scheduled-jobs)
-  - [Directly loading nnUNet-v2 weights](#directly-loading-nnunet-v2-weights)
+  - [Option 1: Docker (local machine)](#option-1-docker-local-machine)
+  - [Option 2: Singularity (HPC / clusters)](#option-2-singularity-hpc--clusters)
+  - [Option 3: SLURM (scheduled jobs)](#option-3-slurm-scheduled-jobs)
+  - [Option 4: Directly loading nnUNet-v2 weights](#option-4-directly-loading-nnunet-v2-weights)
 - [Settings](#settings)
 - [Contact](#contact)
 
@@ -85,7 +85,7 @@ Outputs are saved in:
 
 For the most recent Docker tags for Segment-STN, see https://hub.docker.com/repository/docker/thijsdebuck/segment-stn/tags
 
-### Docker (local machine)
+### Option 1: Docker (local machine)
 *Run the tool locally using a containerized environment.*
 
 ```bash
@@ -94,7 +94,7 @@ docker run --rm -v /path/to/data:/data thijsdebuck/segment-stn:1.105
 
 ---
 
-### Singularity (HPC / clusters)
+### Option 2: Singularity (HPC / clusters)
 *Run the same container without Docker (common on HPC systems).*
 
 ```bash
@@ -105,7 +105,7 @@ singularity run --nv \
 
 ---
 
-### SLURM (scheduled jobs)
+### Option 3: SLURM (scheduled jobs)
 *Submit a batch job on a compute cluster.*
 
 ```bash
@@ -125,7 +125,7 @@ singularity run --nv \
 
 ---
 
-### Directly loading nnUNet-v2 weights
+### Option 4: Directly loading nnUNet-v2 weights
 Feel free to reach out to receive the raw model weights (1.14GB). These are too large to include on GitHub, but can be shared directly. In that case, I can also share the model trained on 1.5 mm data (instead of 1.5 mm). Inference is quicker using this model, but it is less robust to differences in contrast/resolution - so it's not included in this "main" release of Segment-STN.
 
 ---
