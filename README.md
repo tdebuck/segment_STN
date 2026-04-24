@@ -12,6 +12,7 @@ This tool is intended for **research purposes only**, not approved for clinical 
 |    |_____/ \___|\__, |_| |_| |_|\___|_| |_|\__|    |_____/   |_|  |_| \_|    |
 |                  __/ |                                                       |
 |                 |___/                v1.105, April 2026                      |
+|                                                                              |
 |        Thijs de Buck, Maarten Bot, et al.                                    |
 |        Department of Neurosurgery, Amsterdam UMC, The Netherlands            |
 ================================================================================
