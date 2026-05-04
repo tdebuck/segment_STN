@@ -125,7 +125,7 @@ singularity run --nv \
 ---
 
 ### Option 4: Directly loading nnUNet-v2 weights
-Feel free to reach out to receive the raw model weights (1.14GB). These are too large to include on GitHub, but can be shared directly. In that case, I can also share the model trained on 1.5 mm data (instead of 1.5 mm). Inference is quicker using this model, but it is less robust to differences in contrast/resolution - so it's not included in this "main" release of Segment-STN.
+Feel free to reach out to receive the raw model weights (1.14GB). These are too large to include on GitHub, but can be shared directly. In that case, I can also share the model trained on 1.5 mm data (instead of the standard model trained at 0.7 mm). Inference is quicker using this model, but it is less robust to differences in contrast/resolution - so it's not included in this "main" release of Segment-STN.
 
 ---
 
